@@ -73,6 +73,9 @@ mono_crash.*
 *.unitypackage.meta
 *.app
 
+# Exception: Allow APK files in Releases folder
+!Releases/*.apk
+
 # Crashlytics generated file
 crashlytics-build.properties
 
